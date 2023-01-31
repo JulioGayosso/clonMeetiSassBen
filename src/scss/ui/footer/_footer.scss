@@ -1,0 +1,12 @@
+@use 'base/variables'as v;
+@use 'base/mixins' as m;
+
+.footer{
+
+    padding:5rem ;
+
+    &__copyright{
+        text-align: center;
+        padding: 1rem;
+    }
+}
